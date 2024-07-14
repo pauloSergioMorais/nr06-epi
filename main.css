@@ -12,6 +12,8 @@ html {
 
 
 
+/* Texto tipo máquina de escrever */
+
 .typewriter {
   overflow: hidden;
   background-color: #00e281;
@@ -62,7 +64,7 @@ html {
     padding: 0.5rem; /* Ajusta o padding para telas menores */
   }
   #typing {
-    font-size: 1.2rem; /* Reduz o tamanho da fonte para telas menores */
+    font-size: 1.4rem; /* Reduz o tamanho da fonte para telas menores */
     animation: typing-small 4s steps(40, end), blink-caret 0.75s step-end infinite;
   }
 }
@@ -72,7 +74,7 @@ html {
     padding: 0.25rem; /* Ajusta o padding para telas muito pequenas */
   }
   #typing {
-    font-size: 1rem; /* Reduz o tamanho da fonte ainda mais para telas muito pequenas */
+    font-size: 1.2rem; /* Reduz o tamanho da fonte ainda mais para telas muito pequenas */
   }
 }
 
