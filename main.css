@@ -20,14 +20,14 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.5rem; /* Adicionado padding para melhor espaçamento */
+  padding: 2rem; /* Adicionado padding para melhor espaçamento */
   width: 100%;  
   text-align: center; /* Centraliza o texto */
 }
 
 /* Estilos do texto de digitação */
 #typing {
-  font-size: 1.4rem;  
+  font-size: 2rem;  
   letter-spacing: 0.04rem;
   display: inline-block;
   overflow: hidden;
@@ -35,7 +35,7 @@ html {
   animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
   width: 100%; /* Faz com que o texto ocupe toda a largura disponível */
   max-width: 100%;
-  padding: 0.2rem; /* Adicionado padding para melhor espaçamento */
+  
 }
 
 /* Animação de digitação */
@@ -64,7 +64,7 @@ html {
     padding: 0.5rem; /* Ajusta o padding para telas menores */
   }
   #typing {
-    font-size: 1.4rem; /* Reduz o tamanho da fonte para telas menores */
+    font-size: 1.6rem; /* Reduz o tamanho da fonte para telas menores */
     animation: typing-small 4s steps(40, end), blink-caret 0.75s step-end infinite;
   }
 }
@@ -74,7 +74,7 @@ html {
     padding: 0.25rem; /* Ajusta o padding para telas muito pequenas */
   }
   #typing {
-    font-size: 1.2rem; /* Reduz o tamanho da fonte ainda mais para telas muito pequenas */
+    font-size: 1.4rem; /* Reduz o tamanho da fonte ainda mais para telas muito pequenas */
   }
 }
 
