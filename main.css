@@ -3,16 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  
 }
 
 html {
   font-size: 62.5%; /* 62.5% de 16px = 10px */
 }
 
-
-
-/* Texto tipo máquina de escrever */
+/* Início Texto tipo máquina de escrever */
 
 .typewriter {
   overflow: hidden;
@@ -21,21 +18,20 @@ html {
   justify-content: center;
   align-items: center;
   padding: 2rem; /* Adicionado padding para melhor espaçamento */
-  width: 100%;  
+  width: 100%;
   text-align: center; /* Centraliza o texto */
 }
 
 /* Estilos do texto de digitação */
 #typing {
-  font-size: 2rem;  
+  font-size: 2rem;
   letter-spacing: 0.04rem;
   display: inline-block;
   overflow: hidden;
-  white-space: normal; /* Permite quebra de linha */  
+  white-space: normal; /* Permite quebra de linha */
   animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
   width: 100%; /* Faz com que o texto ocupe toda a largura disponível */
   max-width: 100%;
-  
 }
 
 /* Animação de digitação */
@@ -65,7 +61,8 @@ html {
   }
   #typing {
     font-size: 1.6rem; /* Reduz o tamanho da fonte para telas menores */
-    animation: typing-small 4s steps(40, end), blink-caret 0.75s step-end infinite;
+    animation: typing-small 4s steps(40, end),
+      blink-caret 0.75s step-end infinite;
   }
 }
 
@@ -87,3 +84,53 @@ html {
     width: 100%;
   }
 }
+
+/* Fim Texto tipo máquina de escrever */
+
+/* Início Header */
+
+.secao_header {
+  background-color: black;
+}
+
+.container_header {
+  padding: 10rem;
+  margin: 0rem auto 0rem auto;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.container_header_titulo {
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.titulo_header {
+  color: white;
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+.subtitulo_header {
+  color: #00e281;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.paragrafo_header {
+  padding-top: 3rem;
+  color: white;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.img_header {
+  max-width: 100rem;
+  margin: 0;
+}
+
+/* Fim Header */
