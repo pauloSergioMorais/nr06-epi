@@ -133,4 +133,27 @@ html {
   margin: 0;
 }
 
+@media (max-width: 320px) {
+
+  .container_header {
+    padding:2rem ;
+    flex-direction: column-reverse;
+  }
+  .container_header_titulo{
+    padding-top: 1rem;
+    width: 30rem;
+  }
+  .titulo_header{
+    padding-top: 1rem;
+    font-size: 3rem;
+    width: 30rem;
+  }
+
+  .img_header {
+    width: 30rem;
+  }
+}
+
+
+
 /* Fim Header */
