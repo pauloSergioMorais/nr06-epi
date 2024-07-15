@@ -98,7 +98,6 @@ html {
   margin: 0rem auto 0rem auto;
   display: flex;
   justify-content: center;
-  
 }
 
 .container_header_titulo {
@@ -129,31 +128,204 @@ html {
 }
 
 .img_header {
-  max-width: 100rem;
+  max-width: 70rem;
   margin: 0;
 }
 
-@media (max-width: 320px) {
-
+@media (max-width: 1100px) {
   .container_header {
-    padding:2rem ;
-    flex-direction: column-reverse;
+    padding: 2rem;
+    /* flex-direction: column-reverse; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
   }
-  .container_header_titulo{
+  .container_header_titulo {
     padding-top: 1rem;
-    width: 30rem;
+    max-width: 40rem;
+    width: 100%;
+    text-align: center;
   }
-  .titulo_header{
+  .titulo_header {
     padding-top: 1rem;
     font-size: 3rem;
-    width: 30rem;
+    max-width: 80rem;
+    width: 100%;
+    text-align: center;
   }
-
   .img_header {
-    width: 30rem;
+    max-width: 80rem;
+    width: 100%;
   }
 }
 
+@media (max-width: 768px) {
+  .container_header {
+    padding: 2rem;
+    flex-direction: column-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .container_header_titulo {
+    padding-top: 1rem;
+    max-width: 60rem;
+    width: 100%;
+    text-align: center;
+  }
+  .titulo_header {
+    padding-top: 1rem;
+    font-size: 3rem;
+    max-width: 60rem;
+    width: 100%;
+    text-align: center;
+  }
+  .img_header {
+    max-width: 60rem;
+    width: 100%;
+  }
+}
 
+@media (max-width: 720px) {
+  .container_header {
+    padding: 2rem;
+    flex-direction: column-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .container_header_titulo {
+    padding-top: 1rem;
+    max-width: 55rem;
+    width: 100%;
+    text-align: center;
+  }
+  .titulo_header {
+    padding-top: 1rem;
+    font-size: 3rem;
+    max-width: 55rem;
+    width: 100%;
+    text-align: center;
+  }
+  .img_header {
+    max-width: 55rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container_header {
+    padding: 2rem;
+    flex-direction: column-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .container_header_titulo {
+    padding-top: 1rem;
+    max-width: 50rem;
+    width: 100%;
+    text-align: center;
+  }
+  .titulo_header {
+    padding-top: 1rem;
+    font-size: 3rem;
+    max-width: 50rem;
+    width: 100%;
+    text-align: center;
+  }
+  .img_header {
+    max-width: 50rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .container_header {
+    padding: 2rem;
+    flex-direction: column-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .container_header_titulo {
+    padding-top: 1rem;
+    max-width: 40rem;
+    width: 100%;
+    text-align: center;
+  }
+  .titulo_header {
+    padding-top: 1rem;
+    font-size: 3rem;
+    max-width: 40rem;
+    width: 100%;
+    text-align: center;
+  }
+  .img_header {
+    max-width: 40rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .container_header {
+    padding: 2rem;
+    flex-direction: column-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .container_header_titulo {
+    padding-top: 1rem;
+    max-width: 35rem;
+    width: 100%;
+    text-align: center;
+  }
+  .titulo_header {
+    padding-top: 1rem;
+    font-size: 3rem;
+    max-width: 35rem;
+    width: 100%;
+    text-align: center;
+  }
+  .img_header {
+    max-width: 35rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .container_header {
+    padding: 2rem;
+    flex-direction: column-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .container_header_titulo {
+    padding-top: 1rem;
+    max-width: 30rem;
+    width: 100%;
+    text-align: center;
+  }
+  .titulo_header {
+    padding-top: 1rem;
+    font-size: 3rem;
+    max-width: 30rem;
+    width: 100%;
+    text-align: center;
+  }
+  .img_header {
+    max-width: 30rem;
+    width: 100%;
+  }
+}
 
 /* Fim Header */
